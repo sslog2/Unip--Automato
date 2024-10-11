@@ -1,4 +1,4 @@
-lass DFA:
+class DFA:
     def __init__(self, transition_function, start_state, accept_states):
         self.transition_function = transition_function
         self.start_state = start_state

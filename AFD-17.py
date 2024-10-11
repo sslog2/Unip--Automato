@@ -44,7 +44,6 @@ class AFD:
             
             for symbol in self.afn.alphabet:
                 move_states = self.afn.move(current_state, symbol)
-                # Corrigido para aplicar a frozenset corretamente sobre o resultado final
                 next_state = frozenset(
                     state for move_state in move_states for state in self.afn.epsilon_closure(move_state)
                 )

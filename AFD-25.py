@@ -39,7 +39,6 @@ test_strings = [
     "aaba",     
     "babab",    
     "bababa",   
-    "",         
 ]
 
 for string in test_strings:
